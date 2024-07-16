@@ -13,6 +13,7 @@ public class TestController {
 
     @RequestMapping(value = "/**")
     public String demo(){
-        return "HELLO";
+        log.info("ABC");
+        return "HELLO WORLD";
     }
 }
